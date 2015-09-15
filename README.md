@@ -1,10 +1,12 @@
 # MapReduce-Demo
 A Demo MapReduce program to process a small amount of data 
 
-# HOW TO:
+** HOW TO: **
 
 *1. Compile the project by updating maven dependencies 
+
 *2. Export as .jar from eclipse by pointing the main method class (Students.java)
+
 *3. Load the input data to HDFS
 
     COMMAND TO LOAD THE INPUT DATA TO HDFS: 
@@ -26,10 +28,10 @@ A Demo MapReduce program to process a small amount of data
 View the output through the HDFS user interface:
 http://<YOUR_IP>:50075/browseDirectory.jsp?dir=/student-out9.txt&namenodeInfoPort=50070&nnaddr=<YOUR_IP>:8020
 
-DATA FILE LOCATION: 
+**DATA FILE LOCATION: **
 -MapReduce-Demo/data/students.txt
 
-INPUT DATA: 
+**INPUT DATA: **
 Marks of 5 students of their five subjects for 3 semesters. 
 
 John, 76, 56, 89, 90, 55
@@ -49,12 +51,16 @@ Tina, 76, 76, 56, 89,55
 Suhana, 25, 76, 56, 89, 99
 
 
-OUTPUT DATA:
+**OUTPUT DATA:**
 Mining the top scored marks out of all the subjects & semesters
 
 John	91
+
 Suhana	99
+
 Tina	91
+
 Hari	99
+
 Shehnaz	91
  
