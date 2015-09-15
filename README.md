@@ -1,7 +1,7 @@
 # MapReduce-Demo
 A Demo MapReduce program to process a small amount of data 
 
-# INPUT DATA: 
+INPUT DATA: 
 Marks of 5 students of their five subjects for 3 semesters. 
 
 John, 76, 56, 89, 90, 55
@@ -21,7 +21,7 @@ Tina, 76, 76, 56, 89,55
 Suhana, 25, 76, 56, 89, 99
 
 
-# OUTPUT DATA:
+OUTPUT DATA:
 Mining the top scored marks out of all the subjects & semesters
 
 John	91
