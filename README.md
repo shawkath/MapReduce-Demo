@@ -3,25 +3,31 @@ A Demo MapReduce program to process a small amount of data
 
 # HOW TO:
 
-1. Compile the project by updating maven dependencies 
-2. Export as .jar from eclipse by pointing the main method class (Students.java)
-3. Load the input data to HDFS
+*1. Compile the project by updating maven dependencies 
+*2. Export as .jar from eclipse by pointing the main method class (Students.java)
+*3. Load the input data to HDFS
+
     COMMAND TO LOAD THE INPUT DATA TO HDFS: 
     hadoop fs -put "/my_folder_location/students.txt" hdfs:/students.txt
-4.Execute the job using the jar and provide arugements (input & output filepaths) 
+    
+*4.Execute the job using the jar and provide arugements (input & output filepaths) 
+
     COMMAND TO EXECUTE THE MAPREDUCE JOB: 
     hadoop jar students-high-mark.jar hdfs:/new-students.txt hdfs:/student-out9.txt
-5. Verify the output files
+    
+*5. Verify the output files
+
     COMMAND TO VERIFY THE OUTPUT:
     hadoop fs -cat hdfs/student-out9.txt/part-r-000001
     hadoop fs -cat hdfs/student-out9.txt/part-r-000002
     hadoop fs -cat hdfs/student-out9.txt/part-r-000003
+    
                         OR 
 View the output through the HDFS user interface:
 http://<YOUR_IP>:50075/browseDirectory.jsp?dir=/student-out9.txt&namenodeInfoPort=50070&nnaddr=<YOUR_IP>:8020
 
 DATA FILE LOCATION: 
-MapReduce-Demo/data/students.txt
+-MapReduce-Demo/data/students.txt
 
 INPUT DATA: 
 Marks of 5 students of their five subjects for 3 semesters. 
