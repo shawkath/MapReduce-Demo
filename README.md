@@ -1,7 +1,7 @@
 # MapReduce-Demo
 A Demo MapReduce program to process a small amount of data 
 
-** HOW TO: **
+**HOW TO:**
 
 *1. Compile the project by updating maven dependencies 
 
