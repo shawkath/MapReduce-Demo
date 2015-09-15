@@ -7,7 +7,6 @@ A Demo MapReduce program to process a small amount of data
 2. Export as .jar from eclipse by pointing the main method class (Students.java)
 3. Load the input data to HDFS
     COMMAND TO LOAD THE INPUT DATA TO HDFS: 
-    
 4.Execute the job using the jar and provide arugements (input & output filepaths) 
     COMMAND TO EXECUTE THE MAPREDUCE JOB: 
     hadoop jar students-high-mark.jar hdfs:/new-students.txt hdfs:/student-out9.txt
