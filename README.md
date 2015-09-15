@@ -26,7 +26,8 @@ A Demo MapReduce program to process a small amount of data
     
                         OR 
 View the output through the HDFS user interface:
-http://YOUR_IP:50075/browseDirectory.jsp?dir=/student-out9.txt&namenodeInfoPort=50070&nnaddr=YOUR_IP:8020
+
+>http://YOUR_IP:50075/browseDirectory.jsp?dir=/student-out9.txt&namenodeInfoPort=50070&nnaddr=YOUR_IP:8020
 
 **DATA FILE LOCATION:**
 -MapReduce-Demo/data/students.txt
