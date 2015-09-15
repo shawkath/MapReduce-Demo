@@ -28,10 +28,10 @@ A Demo MapReduce program to process a small amount of data
 View the output through the HDFS user interface:
 http://<YOUR_IP>:50075/browseDirectory.jsp?dir=/student-out9.txt&namenodeInfoPort=50070&nnaddr=<YOUR_IP>:8020
 
-**DATA FILE LOCATION: **
+**DATA FILE LOCATION:**
 -MapReduce-Demo/data/students.txt
 
-**INPUT DATA: **
+**INPUT DATA:**
 Marks of 5 students of their five subjects for 3 semesters. 
 
 John, 76, 56, 89, 90, 55
